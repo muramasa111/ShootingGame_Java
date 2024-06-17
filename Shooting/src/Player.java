@@ -23,6 +23,11 @@ public class Player extends Character implements KeyListener{
 		{
 			vx = 5;
 		}
+		if(e.getKeyCode() == KeyEvent.VK_SPACE)
+		{
+			GameWorld.playerBullets.add(
+					new PlayerBullet(x,y,0,-10));
+		}
 	}
 
 	@Override
