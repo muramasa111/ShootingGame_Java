@@ -19,7 +19,7 @@ public class Player extends Character implements KeyListener{
 	}
 
 	@Override
-	public void keyPressed(KeyEvent e) {
+	public void keyPressed(KeyEvent w	e) {
 		// TODO 自動生成されたメソッド・スタブ
 		if(e.getKeyCode() == KeyEvent.VK_LEFT)
 		{
