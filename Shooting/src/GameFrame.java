@@ -32,11 +32,11 @@ public class GameFrame extends MyFrame {
 	}
 
 	public void moveEnemies() {
-		for(int i = 0; i < GameWorld.enemies.size(); i++) {
+		for (int i = 0; i < GameWorld.enemies.size(); i++) {
 			Enemy e = GameWorld.enemies.get(i);
 			e.draw(this);
 			e.move();
 		}
 	}
-	
+
 }
